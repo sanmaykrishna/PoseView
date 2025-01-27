@@ -60,24 +60,28 @@ PoseView is a real-time **posture estimation and analysis system** that leverage
 
 ---
 
-## **Installation**
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/PoseView.git
-   cd PoseView
-  
-2. **Install Dependencies: Ensure the required Python libraries are installed**:
-  ```bash
-  pip install opencv-python mediapipe requests
+# **Installation Guide**
 
-3. **Configure Telegram Bot**:
-  Open the pose_view.py file.
-  Replace placeholders in these lines with your bot's credentials:
+Follow these steps to set up the PoseView application.
 
-  ```python
-  bot_token = "Enter Token of Telegram bot"
-  chat_id = "Enter ChatID of telegram"
+## Clone the Repository and Set Up the Application
 
-4. **Run the Application**:
-  ```bash
-  python pose_view.py
+Run the following commands to clone the repository, navigate into the project directory, and install the required dependencies:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/PoseView.git
+
+# Navigate into the project directory
+cd PoseView
+
+#Configure Telegram Bot:
+#Open the pose_view.py file and replace the placeholders in these lines with your bot's credentials:
+bot_token = "Enter Token of Telegram bot"
+chat_id = "Enter ChatID of telegram"
+
+# Install required Python dependencies
+pip install opencv-python mediapipe requests
+
+# Run the code
+python pose_view.py
